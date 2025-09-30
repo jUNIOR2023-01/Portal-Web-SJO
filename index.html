@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Web Conecta SJ</title>
+    <!-- Enlace a Tailwind CSS para los estilos rápidos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Enlace a tu hoja de estilos personalizada -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased flex flex-col min-h-screen bg-gray-50">
+
+    <!-- Fondo de la página -->
+    <div class="fixed inset-0 -z-10">
+        <!-- NOTA: Asegúrate de que tu imagen se llame "fondo-escuela.jpg" -->
+        <img src="U.E San Jose Obrero.png" alt="Fondo de la Unidad Educativa" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/60"></div>
+    </div>
+    
+    <!-- Vista de Inicio de Sesión -->
+    <div id="login-view" class="isolate flex flex-grow items-center sm:items-end justify-center sm:justify-end p-4 sm:p-16">
+        <div class="w-full max-w-md space-y-6 rounded-xl bg-black/30 p-8 shadow-2xl backdrop-blur-lg border border-white/20">
+            <div>
+                <h2 class="text-center text-2xl font-bold tracking-tight text-white">Portal Web SJ de la U.E. San José Obrero</h2>
+                <p class="mt-2 text-center text-sm text-gray-300">Introduce el Número RUDE del Estudiante para acceder a su información.</p>
+            </div>
+            <form id="login-form" class="space-y-6">
+                <div>
+                    <label for="rude" class="block text-sm font-medium text-gray-200">Número RUDE</label>
+                    <div class="mt-1">
+                        <input type="text" id="rude" name="rude" class="block w-full rounded-md border-0 bg-white/10 px-3 py-2 text-white shadow-sm ring-1 ring-inset ring-white/30 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm" placeholder="Ej: 519500012018022" required>
+                    </div>
+                </div>
+                <div id="login-message" class="text-red-400 text-sm text-center h-4"></div>
+                <button type="submit" class="flex w-full justify-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
+                    Ingresar
+                </button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Vista Principal del Portal (oculta por defecto) -->
+    <div id="main-portal-view" class="hidden flex-col flex-grow isolate">
+        <header class="bg-white shadow-md sticky top-0 z-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between h-16">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-xl font-bold text-gray-800">Portal Web Conecta SJ</h1>
+                    </div>
+                    <button id="logout-button" class="bg-red-500 text-white text-sm py-1.5 px-3 rounded-md hover:bg-red-600 transition-colors">
+                        Salir
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-grow">
+            <div class="bg-white rounded-lg shadow-lg mb-8">
+                <div class="px-6 py-5 border-b border-gray-200">
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-800">Información del Estudiante: <span id="student-name" class="font-bold"></span></h3>
+                </div>
+                <div class="border-b border-gray-200 overflow-x-auto">
+                    <nav class="-mb-px flex space-x-2 md:space-x-4 p-4" aria-label="Tabs">
+                        <button data-tab="seguimiento" class="tab-button active flex-shrink-0">Ficha de Seguimiento</button>
+                        <button data-tab="asistencia" class="tab-button flex-shrink-0">Asistencia</button>
+                        <button data-tab="notas" class="tab-button flex-shrink-0">Notas Trimestrales</button>
+                        <button data-tab="reuniones" class="tab-button flex-shrink-0">Reuniones</button>
+                        <button data-tab="horario" class="tab-button flex-shrink-0">Horario</button>
+                    </nav>
+                </div>
+                <div id="tab-content" class="p-6">
+                    <!-- Contenido Pestaña Seguimiento -->
+                    <div id="content-seguimiento" class="tab-pane">
+    <!-- Encabezado -->
+    <h2 class="text-xl font-bold text-gray-900 mb-6 border-b pb-2">
+        Información del Estudiante: <span id="student-name" class="font-normal"></span>
+    </h2>
+
+    <!-- Navegación de Pestañas -->
+    <nav class="flex space-x-4 mb-6 border-b border-gray-200">
+        <button data-tab="seguimiento" class="tab-button active text-sm font-medium text-gray-700 hover:text-gray-900">Ficha de Seguimiento</button>
+        <button data-tab="asistencia" class="tab-button text-sm font-medium text-gray-500 hover:text-gray-700">Asistencia</button>
+        <button data-tab="notas" class="tab-button text-sm font-medium text-gray-500 hover:text-gray-700">Notas Trimestrales</button>
+        <button data-tab="reuniones" class="tab-button text-sm font-medium text-gray-500 hover:text-gray-700">Reuniones</button>
+        <button data-tab="horario" class="tab-button text-sm font-medium text-gray-500 hover:text-gray-700">Horario</button>
+    </nav>
+
+    <!-- Información del Estudiante -->
+    <div class="mb-6">
+        <h3 class="text-lg font-semibold text-gray-800 mb-3">Información del Estudiante</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-700">
+            <div>
+                <span class="font-medium text-gray-600">RUDE:</span>
+                <span id="student-rude-display" class="ml-2"></span>
+            </div>
+            <div>
+                <span class="font-medium text-gray-600">Curso:</span>
+                <span id="student-course" class="ml-2"></span>
+            </div>
+            <div>
+                <span class="font-medium text-gray-600">Grado:</span>
+                <span id="student-grade" class="ml-2"></span>
+            </div>
+            <div>
+                <span class="font-medium text-gray-600">Turno:</span>
+                <span id="student-shift" class="ml-2"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Observaciones y Seguimiento -->
+    <div>
+        <h3 class="text-lg font-semibold text-gray-800 mb-3">Observaciones y Seguimiento</h3>
+        <div id="student-observations" class="space-y-3"></div>
+    </div>
+</div>
+                    <!-- Contenido Pestaña Asistencia -->
+                    <div id="content-asistencia" class="tab-pane hidden">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-4">Registro de Asistencia</h4>
+                        <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                                <thead class="bg-gray-50">
+                                <tr>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Fecha</th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Materia</th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Estado</th>
+                                </tr>
+                                </thead>
+                                <tbody id="asistencia-table-body" class="bg-white divide-y divide-gray-200">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- Contenido Pestaña Notas -->
+                    <div id="content-notas" class="tab-pane hidden">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-4">Notas Trimestrales</h4>
+                        <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                                <thead class="bg-gray-50">
+                                <tr>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Materia</th>
+                                    <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">1er Trim.</th>
+                                    <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">2do Trim.</th>
+                                    <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">3er Trim.</th>
+                                    <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Promedio</th>
+                                </tr>
+                                </thead>
+                                <tbody id="notas-table-body" class="bg-white divide-y divide-gray-200">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- Contenido Pestaña Reuniones -->
+                    <div id="content-reuniones" class="tab-pane hidden">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-4">Reuniones Programadas</h4>
+                        <div id="reuniones-container" class="space-y-4"></div>
+                    </div>
+                    <!-- Contenido Pestaña Horario -->
+                    <div id="content-horario" class="tab-pane hidden">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-4">Mi Horario de Clases</h4>
+                        <div id="horario-container" class="mt-4">
+                            <!-- La imagen del horario se insertará aquí -->
+                            <img id="horario-img" alt="Horario de Clases" class="hidden rounded-lg shadow-md max-w-full mx-auto">
+                            <!-- Mensaje para cuando no hay horario -->
+                            <p id="horario-message" class="text-gray-500 hidden">No hay un horario disponible para mostrar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-gray-800 text-white mt-8">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 text-center text-sm">
+                <p>&copy; 2025 Unidad Educativa San José Obrero. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Enlace a tu archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
