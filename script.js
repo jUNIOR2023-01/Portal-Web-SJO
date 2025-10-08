@@ -28,8 +28,15 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "26-03-2025", area: "Biologia", descripcion: "No hizo practica", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento produccion(Mapa mental)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ciencias Sociales", descripcion: "No presento produccion (mapa actividades economicas)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento practico de angulo", Docente:"Profesor Erlan Escobar" },
+                { fecha: "02-06-2025", area: "Artes Plasticas", descripcion: "no Presento trabajo en venesta", Docente:"Profesora Zulema Pinto" },
+                { fecha: "20-06-2025", area: "Tecnica Tecnologica", descripcion: "No presento cuestionario no presento robot", Docente:"Profesora Zulema Pinto" },
+                { fecha: "26-06-2025", area: "Matematica", descripcion: "no presento practico de numeros desimales", Docente:"Profesora Zulema Pinto" },
+                { fecha: "03-09-2025", area: "Matematica", descripcion: "No presento practico de operaciones combinadas", Docente:"Profesora Silvia Delgado" },
+
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -38,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { fecha: "2025-05-07", materia: "Sociales", estado: "Atraso" }
             ],
             notas: {
-                "Comunicación y Lenguajes": { t1: 54, t2: 62, t3: 0 },
+                "Comunicación y Lenguajes": { t1: 54, t2: 62, t3: 70 },
                 "Lengua Extranjera": { t1: 54, t2: 81, t3: 0 },
                 "Ciencias Sociales": { t1: 63, t2: 80, t3: 0 },
                 "Educación Musical": { t1: 79, t2: 87, t3: 0 },
@@ -124,7 +131,13 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "02-03-2025", area: "Psicologia", descripcion: "Su mesa esta pintada y debe lijar y pintar", Docente:"Silvia Delgado" },
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion (se comporta mal en clases)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ingles", descripcion: "No presento su produccion (Dibujo)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(Mapa con actividades economicas", Docente:"Profesora Silvia Delgado" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento practico de angulos", Docente:"Profesora Zulema Pinto" },
+                { fecha: "20-06-2025", area: "Tecnica Tecnologica", descripcion: "No presento su cuestionario no presento robot", Docente:"Profesora Zulema Pinto" },
+                { fecha: "03-09-2025", area: "Matematica", descripcion: "No presento practico de operaciones combinadas", Docente:"Profesor Erlan Escobar" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -152,8 +165,10 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "12-03-2025", area: "Biologia", descripcion: "No hizo practica", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento practico de angulos", Docente:"Profesor Erlan Escobar" },
+                { fecha: "26-06-2025", area: "Matematica", descripcion: "No presento practico de numeros desimales", Docente:"Profesor Erlan Escobar" },
+                { fecha: "03-09-2025", area: "Matematica", descripcion: "Falto a clases", Docente:"Profesor Erlan Escobar" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -185,8 +200,10 @@ document.addEventListener('DOMContentLoaded', () => {
             grado: "A",
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
-            observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+            observaciones:  [ 
+                { fecha: "13-03-2025", area: "Biologia", descripcion: "llego tarde", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento tarea de angulos", Docente:"Profesor Erlan Escobar" },
+                { fecha: "03-09-2025", area: "Matematica", descripcion: "No presento practico de opera combinadas", Docente:"Profesor Erlan Escobar" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -214,8 +231,14 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "12-03-2025", area: "Biologia", descripcion: "No hizo practico", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "26-03-2025", area: "Biologia", descripcion: "No hizo practico", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento produccion (mapa mental)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ingles", descripcion: "No presento su produccion (Dibujo e interpretacion)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(Mapa con actividades economicas)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento practico de angulos", Docente:"Profesor Erlan Escobar" },
+                { fecha: "26-06-2025", area: "Matematica", descripcion: "No completo su practico de desimales", Docente:"Profesor Erlan Escobar" },
+                { fecha: "03-09-2025", area: "Matematica", descripcion: "No presento practico de operaciones combinadas", Docente:"Profesor Erlan Escobar" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -248,7 +271,10 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "12-03-2025", area: "Biologia", descripcion: "No hizo practico", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "20-06 2025", area: "Tecnica Tecnologica", descripcion: "No presento su cuestionario no presento robot", Docente:"Profesora Zulema Pinto" },
+                { fecha: "26-06-2025", area: "Matematica", descripcion: "No presento su practico completo de numeros decimales", Docente:"Profesor Erlan Escobar" },
+                { fecha: "03-09-2025", area: "Matematica", descripcion: "No presento su practico de operaciones combinadas", Docente:"Profesor Erlan Escobar" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -276,8 +302,9 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "20-06-2025", area: "Tecnica Tecnologica", descripcion: "No presento su cuestionario", Docente:"Profesora Zulema Pinto" },
+                { fecha: "03-09-2025", area: "Matematica", descripcion: "No presento practico de operaciones combinadas", Docente:"Profesor Erlan Escobar" },
+
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -310,7 +337,12 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "12-03-2025", area: "Biologia", descripcion: "No hizo practico", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "26-03-2025", area: "Biologia", descripcion: "No hizo practico", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa mental)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion (mapa con actividades economicas", Docente:"Profesora Silvia Delgado" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento practico de angulos", Docente:"Profesora Erlan Escobar" },
+                { fecha: "08-04-2025", area: "Ingles", descripcion: "No presento su produccion (Los numeros", Docente:"Profesora Silvia Delgado" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -338,8 +370,10 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "12-03-2025", area: "Biologia", descripcion: "No hizo practico", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "26-03-2025", area: "Biologia", descripcion: "No hizo practico", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "02-08-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion (mapa mental)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento practico de angulos", Docente:"Profesora Zulema Pinto" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -372,7 +406,13 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "13-03-2025", area: "Biologia", descripcion: "No hizo practico", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "26-03-2025", area: "Biologia", descripcion: "No hizo practico", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento produccion (mapa mental)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ingles", descripcion: "Falto a clases sin licencia", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "08-04-2025", area: "Ingles", descripcion: "No preento su produccion(los numeros)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "16-04-2025", area: "Psicologia", descripcion:"Falto a clases sin licencia", Docente:"Profesora Silvia Delgado" },
+                { fecha: "20-06-2025", area: "Tecnica Tecnologica", descripcion: "No presento su cuestioario, no presento su robor", Docente:"Profesora Zulema Pinto" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -400,8 +440,10 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion (mapa mental", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ingles", descripcion: "No presento su produccion(Dibujo)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa con actividades economicas)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "08-04-2025", area: "Ingles", descripcion: "No presento produccion (Los numeros)", Docente:"Profesora Silvia Delgado" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -434,7 +476,9 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "11-02-2025", area: "Psicologia", descripcion: "Su mesa esta pintada debe lijar y pintar en el final de carnaval", Docente:"Profesora Silvia Delgado" },
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa mental)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "08-04-2025", area: "Ingles", descripcion: "No presento su produccion(los numeros)", Docente:"Profesora Silvia Delgado" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -462,8 +506,10 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa mental)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ingles", descripcion: "No presento produccion(Dibujo)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ciencias Sociales", descripcion: "No presento su practico (mapa con actividadeseconomicas)", Docente:"Profesor Silvia Delgado" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento practico de angulos", Docente:"Profesora Erlan Escobar" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -496,7 +542,12 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa mental)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ciencias Sociales", descripcion: "No presentop produccion(mapa con actividades economicas)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento pracctico de angulos", Docente:"Profesor Erlan Escobar" },
+                { fecha: "08-04-2025", area: "Ingles", descripcion: "No presento su produccion(los numeros)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "29-09-2025", area: "Artes Pllasticas", descripcion: "No trabajo el tema del color no realiza el tema en clase", Docente:"Profesora Nancy Fernandez" },
+
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -524,8 +575,10 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "13-02-2025", area: "Psicologia", descripcion: "Esta su mesa pintado debe lijar y pintar", Docente:"Profesora Silvia Delgado" },
+                { fecha: "02-04-2025", area: "Biologia", descripcion: "Mal comportamiento", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "02-04-2025", area: "Psicologia", descripcion: "Se comporto mal en clases es distraido", Docente:"Profesora Silvia Delgado" },
+                { fecha: "08-04-2025", area: "Ingles", descripcion: "No presento su produccion(los numeros)", Docente:"Profesora Silvia Delgado" }
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -558,7 +611,8 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento su practico de angulo", Docente:"Profesor Erlan Escobar" },
+                { fecha: "08-04-2025", area: "Ingles", descripcion: "No presento su produccion los numeros", Docente:"Profesora Silviia Delgado" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -620,7 +674,9 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa mental", Docente:"Profesora Silvia Delgado" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento practico de angulo", Docente:"Profesor Erlan Escobar" },
+                { fecha: "08-04-2025", area: "Ingles", descripcion: "No presento su produccion(Los numeros)", Docente:"Profesora Silvia Delgado" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -648,8 +704,8 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa mental)", Docente:"Profesor Silvia Delgado" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento practico de angulo", Docente:"Profesor Erlan Escobar" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -682,7 +738,11 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "26-03-2025", area: "Biologia", descripcion: "No presento practico ", Docente:"Profesora Nancy Fernandez" },
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa mental)", Docente:"Profesora Silvia Delgado Cruz" },
+                { fecha: "01-04-2025", area: "Ingles", descripcion: "No presento su produccion(Dibujo)", Docente:"Profesora Silvia Delgado Cruz" },
+                { fecha: "01-04-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa con actividades economicas)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento practico de angulo", Docente:"Profesor Erlan Escobar" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -710,7 +770,9 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa mental)", Docente:"Profesor Silvia Delgado" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento practico de angulo", Docente:"Profesor Erlan Escobar" },
+                { fecha: "08-04-2025", area: "Ingles", descripcion: "No presento su produccion(Los numeros)", Docente:"Profesor Silvia Delgado" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -738,10 +800,16 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "26-03-2025", area: "Biologia", descripcion: "No vino a clases", Docente:"Profesora Nancy Fernandez<" },
+                { fecha: "11-03-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa mental)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ingles", descripcion: "No presento su produccion(Dibujo)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "01-04-2025", area: "Ciencias Sociales", descripcion: "No presento su produccion (mapa con ctividades economicas)", Docente:"Profesora Silvia Delgado" },
+                { fecha: "02-04-2025", area: "Matematica", descripcion: "No presento practico de angulo", Docente:"Profesor Erlan Escobar" },
+                { fecha: "08-04-2025", area: "Ingles", descripcion: "No presento su produccion(los numeros)", Docente:"Profesora Silvia Delgado" },
             ],
             asistencia: [
-                { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
+                { fecha: "10-05-2025", materia: "Física", estado: "Presente" },
+                { fecha: "10-05-2025", materia: "Física", estado: "Presente" }
             ],
             notas: {
                 "Comunicación y Lenguajes": { t1: 51, t2: 46, t3: 0 },
@@ -766,7 +834,7 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "26-03-2025", area: "Biologia", descripcion: "No vino a clases", Docente:"Profesora Nancy Fernandez<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -794,7 +862,9 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "26-03--2025", area: "Biologia", descripcion: "No presento practico", Docente:"Profesora Nancy Fernandez<" },
+                { fecha: "11-03--2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa mental)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "08-04--2025", area: "Ingles", descripcion: "No presento su produccion(los numeros)", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -822,7 +892,7 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "11-02--2025", area: "Psicologia", descripcion: "Esta pintado su mesa tambien pinto otro pupitre", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -850,7 +920,13 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "11-02--2025", area: "Psicologia", descripcion: "esta pintado su mesa tambien pinto otro", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "12-03--2025", area: "Psicologia", descripcion: "No paso clases de psicologia en la septima", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "26-03--2025", area: "Biologia", descripcion: "No presento practico", Docente:"Profesora Nancy Fernandez<" },
+                { fecha: "11-03--2025", area: "Ciencias Sociales", descripcion: "no presento su produccion(mapa mental)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "01-04--2025", area: "Ingles", descripcion: "No presento su produccion(Dibujo)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "01-04--2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa con actividades economicas)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "08-04--2025", area: "Ingles", descripcion: "No presento su produccion(los numeros)", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -878,7 +954,12 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "26-06--2025", area: "Biologia", descripcion: "No vino a clases", Docente:"Profesora Nancy Fernandez<" },
+                { fecha: "11-02--2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa mental)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "01-04--2025", area: "Ingles", descripcion: "No presento su produccion(Dibujo)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "01-04--2025", area: "Ciencias Sociales", descripcion: "No presento su produccion(mapa con actividades economicas)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-04--2025", area: "Matematica", descripcion:"No presento su practico de angulos", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "08-04--2025", area: "Ingles", descripcion: "No presento su produccion(los numeros)", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -906,8 +987,7 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 1 PRIMERO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "15-02--2025", area: "Matematica", descripcion: "No presento practico", Docente:"Profesor Erlan Escobar<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -940,7 +1020,15 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "25-02--2025", area: "Matematica", descripcion: "No presento su practico", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "26-02--2025", area: "Matematica", descripcion: "No presento practico de fraccion", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "14-03--2025", area: "Artes Plsticas", descripcion: "No presento el tema de dibujo tecnico decrativo", Docente:"Profesora Zulema Pinto<" },
+                { fecha: "21-03--2025", area: "Artes Plasticas", descripcion: "No presento su trabajo de construccion del cuadrado y su producto", Docente:"Profesora Zulema Pinto<" },
+                { fecha: "05-08--2025", area: "Matematica", descripcion: "No presento practicas de expresiones algebraicas", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "05-08--2025", area: "Matematica", descripcion: "No presento practico", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "05-08--2025", area: "Matematica", descripcion: "No presento practico", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "25-08--2025", area: "Ciencias Sociales", descripcion: "No presento su cuestionario y mapa mental y carpeta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-10--2025", area: "Tecnica Tecnologica", descripcion: "No dio su evaluacion", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -968,8 +1056,18 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "25-02--2025", area: "Matematica", descripcion: "No presento practico", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento produccion(tabla con datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "16-04--2025", area: "Matematica", descripcion: "No realizo su practico sobre algebra", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "05-05--2025", area: "Cienias Sociales", descripcion: "No presento su actividad de produccion(investigacion dibujo maqueta)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "22-05--2025", area: "Cosmovicion", descripcion: "No presento su produccion ", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "11-06--2025", area: "Matematica", descripcion: "No presento su mapa conceptual", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "05-08--2025", area: "Matematica", descripcion: "No presento practico de expresiones algebraicas", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "27-08--2025", area: "Matematica", descripcion: "No asistio y no dio examen", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "25-08--2025", area: "Ciencias Sociales", descripcion: "No presento su cuadro crusigrama cuestionario mapa", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su factura cuento historieta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Cosmovicion", descripcion: "No presento su poema lectura frase", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "30-09--2025", area: "Tecnologia", descripcion: "No presento el cuadro de presupuesto", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -1002,7 +1100,9 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "14-03--2025", area: "Artes Plasticas", descripcion: "No presento su tema de dibujo", Docente:"Profesora <" },
+                { fecha: "05-08--2025", area: "Matematica", descripcion: "No presento practico expresiones algebraicas", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "07-08--2025", area: "Matematica", descripcion: "No completo su practico de polinomio", Docente:"Profesor Erlan Escobar<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -1064,7 +1164,15 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "22-05--2025", area: "Cosmovicion", descripcion: "No presento su produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "05-08--2025", area: "Matematica", descripcion: "No presento practico de expresiones algebraicas", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "25-08--2025", area: "Matematica", descripcion: "No tiene deber al dia", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "27-08--2025", area: "Ciencias Sociales", descripcion: "No presento cuestionario y mapa mental", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su cuento historieta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Cosmovicion", descripcion: "No presento su poema cuestionario", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "30-09--2025", area: "Cosmovicion", descripcion: "No presento su cuadro de presupuesto", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-10--2025", area: "Tecnica Tecnologica", descripcion: "No dio su evaluacion", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -1092,8 +1200,17 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "08-25--2025", area: "Cosmovicion", descripcion: "No presento sus actividades de produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "15-05--2025", area: "Cosmovicion", descripcion: "No trajo materiales a clases", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "22-05--2025", area: "Cosmovicion", descripcion: "No presento su produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "05-08--2025", area: "Matematica", descripcion: "No presento practico de expresiones algebraicas", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "27-08--2025", area: "Matematica", descripcion: "No tiene deber al dia", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "28-08--2025", area: "Ciencias Sociales", descripcion: "No presento su cuadro crusigrama", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su factur historieta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Cosmovicion", descripcion: "No presento su lectura poema cuestionario", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "30-09--2025", area: "Cosmovicion", descripcion: "No presento su cuadro de tecnica", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-10--2025", area: "Tecnica Tecnologica", descripcion: "No presento su cuadro de presupuesto", Docente:"Profesora Silvia Delgado<" }, 
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -1126,7 +1243,9 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "05-08--2025", area: "Matematica", descripcion: "No presento practico de matematicas", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su historieta cuento", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -1154,7 +1273,7 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -1216,7 +1335,17 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "10-03--2025", area: "Ciencias Sociales", descripcion: "No presento el cuadro de caracteristica", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "18-03--2025", area: "Tecnica Tecnologica", descripcion: "No presento su produccion(cartel de prevencion)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "22-05--2025", area: "Cosmovicion", descripcion: "No presento su produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "11-06--2025", area: "Matematica", descripcion: "No presento su mapa conceptual", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "27-08--2025", area: "Matematica", descripcion: "No tiene deber ni practico al dia y no dio examen", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "28-08--2025", area: "Ciencias Sociales", descripcion: "No presento su cuaderno,crusigrama,cuestionario,mapa mental y cartel y carpeta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su factura,historieta,cuento,word y carpeta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Cosmovicion", descripcion: "No presento su poema, cuestionario, frases y carpeta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "30-02--2025", area: "Cosmovicion", descripcion: "No trajo a clases ss materiales no presento su cuadro de propuestas", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-10--2025", area: "Tecnica Tecnologica", descripcion: "No dio su evaluacion", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -1244,8 +1373,14 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "22-05--2025", area: "Cosmovicion", descripcion: "No presento su produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "05-08--2025", area: "Matematica", descripcion: "No presento practico de expresiones algebraicas", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "25-08--2025", area: "Ciencias Sociales", descripcion: "No presento su crusigrama,mapa mental y carpeta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su factura, cuentos, word y carpeta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "20-08--2025", area: "Cosmovicion", descripcion: "No presento su lectura, poema,cuestionario, frase y carpeta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "30-09--2025", area: "Tecnica Tecnologica", descripcion: "No presento el cuadro y los materiales", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-10--2025", area: "Tecnica Tecnologica", descripcion: "No dio su evaluacion", Docente:"Profesora Silvia Delgado<" },   
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -1306,8 +1441,12 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "18-03--2025", area: "Tecnica Tecnologica", descripcion: "No presento su produccion(no presento su cartel de prevencion)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "08-05--2025", area: "Matematica", descripcion: "Presento incompleto practico expresion algebraica", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su historieta cuento,word y carpeta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Cosmovicion", descripcion: "No presento su poema", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-10--2025", area: "Tecnica Tecnologica", descripcion: "No dio su evaluacion", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -1340,7 +1479,16 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "26-03--2025", area: "Matematica", descripcion: "No tiene dever al dia no dio examen de numeros irreales", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "18-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "21-04--2025", area: "Ciencias Sociales", descripcion: "No presento su actividad de produccion cuadro de caracteristicas, mapa conceptual", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "22-05--2025", area: "Cosmovicion", descripcion: "No presento su produccion ", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "05-08--2025", area: "Matematica", descripcion: "No presento practico de expresiones algebraicas", Docente:"Profesor Erlan Esobar <" },
+                { fecha: "27-08--2025", area: "Matematica", descripcion: "No tiene deber y practico", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "25-08--2025", area: "Tecnica Tecnologica", descripcion: "No tiene deber al dia", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Cosmovicion", descripcion: "No presento su lectura cuestionario, mapa conceptual y carpeta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "30-09--2025", area: "Tecnica Tecnologica", descripcion: "No presento su historieta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-10--2025", area: "Tecnica Tecnologica", descripcion: "No presento su cuestionario, frase, carpeta", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -1368,8 +1516,10 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "08-05--2025", area: "Matematica", descripcion: "No presento su practico de expresiones algebraicas", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "25-08--2025", area: "Ciencias Sociales", descripcion: "No presento su mapa mental", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-10--2025", area: "Tecnica Tecnologica", descripcion: "No dio su evaluacion", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -1430,8 +1580,20 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+                { fecha: "10-03--2025", area: "Ciencias Sociales", descripcion: "No presento su cuadro de caracteristicas", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "18-03--2025", area: "Tecnica Tecnlogica", descripcion: "No presento su produccion(cartel de prevencion)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "09-04--2025", area: "Matematica", descripcion: "No presento investigacion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "06-05--2025", area: "Tecnica Tecnologica", descripcion: "No presento sus actividades de produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "22-05--2025", area: "Cosmovicion", descripcion: "No presento su produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "11-06--2025", area: "Matematica", descripcion: "No presento mapa conceptual", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "08-08--2025", area: "Matematica", descripcion: "No presento practico de expresiones algebraicas", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "27-08--2025", area: "Matematica", descripcion: "No presento deber al dia y no tiene practico", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "25-08--2025", area: "Ciencias Sociales", descripcion: "No presento su cuaderno crusigrama", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su factura historieta, cuento ", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Cosmovicion", descripcion: "No presento lectura poema", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "30-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento el cuadro de presupuesto familiar", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-10--2025", area: "Tecnica Tecnologica", descripcion: "No dio su evaluacion falta a clases", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -1464,7 +1626,19 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "26-02--2025", area: "Matematica", descripcion: "No presento su practico de fracciones", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "18-03--2025", area: "Tecnica Tecnologica", descripcion: "No presento su produccion(Cartel de prevencion)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "01-05--2025", area: "Cosmovicion", descripcion: "No presento sus actividades de produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "15-05--2025", area: "Cosmovicion", descripcion: "No trajo sus materiales a clases para su produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "22-05--2025", area: "Cosmovicion", descripcion: "No presento su produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "11-05--2025", area: "Matematica", descripcion: "No presento su mapa conceptual del tema", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "05-08--2025", area: "Matematica", descripcion: "No presento su practico de expresiones algebraicas", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "27-08--2025", area: "Matematica", descripcion: "No presento deber ni practico", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "25-08--2025", area: "Ciencias Sociales", descripcion: "No presento su cuadro,crusigrama y cuestionario", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su factura historieta cuento", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Cosmovicion", descripcion: "No presento su lectura poema cuestionario)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "30-09--2025", area: "Tecnica Tecnologica", descripcion: "No presento su cuadro de presupuesto", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -1492,8 +1666,18 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
-                { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
+               { fecha: "26-03--2025", area: "Matematica", descripcion: "No tiene deber al dia no dio examen", Docente:"Profesor Erlan Escobar<" },
+               { fecha: "18-03--2025", area: "Tecnica Tecnologica", descripcion: "No presento su produccion(cartel de prevencion)", Docente:"Profesora Silvia Delgado<" },
+               { fecha: "18-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+               { fecha: "09-04--2025", area: "Matematica", descripcion: "No presento investigacion", Docente:"Profesor Erlan Escobar<" },
+               { fecha: "15-05--2025", area: "Cosmovicion", descripcion: "No trajo materiales de produccion", Docente:"Profesora Silvia Delgado<" },
+               { fecha: "22-05--2025", area: "Cosmovicion", descripcion: "No presento su produccion", Docente:"Profesora Silvia Delgado<" },
+               { fecha: "11-06--2025", area: "Matematica", descripcion: "No presento su mapa conceptual", Docente:"ProfesorErlan Escobar<" },
+               { fecha: "05-08--2025", area: "Matematica", descripcion: "No presento su practico de expresiones algebraicas", Docente:"Profesor Erlan Escobar<" },
+               { fecha: "25-08--2025", area: "Ciencias Sociales", descripcion: "No presento su cuadro crucigrama cuestionario", Docente:"Profesora Silvia Delgado<" },
+               { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su factura historieta", Docente:"Profesora Silvia Delgado<" },
+               { fecha: "28-08--2025", area: "Cosmovicion", descripcion: "No presento su poema cuestionario y carpeta", Docente:"Profesora Silvia Delgado<" },
+               { fecha: "30-09--2025", area: "Tecnica Tecnologica", descripcion: "No presento el cuadro de presupuesto", Docente:"Profesora Silvia Delgado<" }, 
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Matemáticas", estado: "Ausente" },
@@ -1526,7 +1710,16 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "18-03--2025", area: "Tecnica Tecnologica", descripcion: "No presento su cartel de prevencion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "22-05--2025", area: "Cosmovicion", descripcion: "No presento su produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "11-06--2025", area: "Matematica", descripcion: "No presento mapa conceptual", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "05-06--2025", area: "Matematica", descripcion: "No presento practico de expresiones algebraicas", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "27-08--2025", area: "Matematica", descripcion: "No presento practico ni deber", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "25-08--2025", area: "Ciencias Sociales", descripcion: "No presento cuadro crucigrama cuestionario", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su factura historieta cuento word", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Cosmovicion", descripcion: "No presento su poema lectura cuestionario", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-10--2025", area: "Tecnica Tecnologica", descripcion: "No presento su cuadro de presupuesto", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -1554,7 +1747,16 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "10-03--2025", area: "Ciencias Sociales", descripcion: "No presento su cuadro de caracteristicas", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "26-03--2025", area: "Matematica", descripcion: "No tiene deber al dia ", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "28-03--2025", area: "Tecnica Tecnologica", descripcion: "No presento su produccion(cartel de prevencion)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "09-04--2025", area: "Matematica", descripcion: "No presento investigacion", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "27-08--2025", area: "Matematica", descripcion: "No presenta deber no dio examen", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "25-08--2025", area: "Ciencias Sociales", descripcion: "No presento su cuadro crucigrama, cuestionario", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su factura historieta cuento word", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Cosmovicion", descripcion: "No presento su lectura poema cuestionario", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "29-09--2025", area: "Cosmovicion", descripcion: "No volvio a clases", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-10--2025", area: "Tecnica Tecnologica", descripcion: "No dio su evaluacion", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -1582,7 +1784,12 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "18-03--2025", area: "Tecnica Tecnologica", descripcion: "No presento su produccion(Cartel de prevencion)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "22-05--2025", area: "Cosmovicion", descripcion: "No presento su produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su historieta cuento", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Cosmovicion", descripcion: "No presento lectura poema frase", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "30-09--2025", area: "Tecnica Tecnologica", descripcion: "No presento el cuadro de presupuesto", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-10--2025", area: "Tecnica Tecnologica", descripcion: "No dio su evaluacion falto a clases", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -1610,7 +1817,15 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "26-02--2025", area: "Matematica", descripcion: "No presento practico de fracciones", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "22-05--2025", area: "Cosmovicion", descripcion: "No presento su produccion", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "08-05--2025", area: "Matematica", descripcion: "No presento su practico de expresiones algebraicas", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "27-08--2025", area: "Matematica", descripcion: "No tiene deber al dia no dio examen", Docente:"Profesor Erlan Escobar<" },
+                { fecha: "25-08--2025", area: "Ciencias Sociales", descripcion: "No presento su cuestionario mapa mental", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Tecnica Tecnologica", descripcion: "No presento su historieta cuento word", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-08--2025", area: "Cosmovicion", descripcion: "No presento cuestionario frase carpeta", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "02-10--2025", area: "Tecnica Tecnologica", descripcion: "No dio evaluacion", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
@@ -1638,7 +1853,20 @@ document.addEventListener('DOMContentLoaded', () => {
             turno: "Mañana",
             "horarioImg": "img/Horario de 2 SEGUNDO.png",
             observaciones: [
-                { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
+                { fecha: "28-03--2025", area: "Cosmovicion", descripcion: "No presento su produccion(tabla de datos)", Docente:"Profesora Silvia Delgado<" },
             ],
             asistencia: [
                 { fecha: "2025-05-10", materia: "Física", estado: "Presente" }
