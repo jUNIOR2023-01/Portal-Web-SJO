@@ -13,7 +13,6 @@
 
     <!-- Fondo de la página -->
     <div class="fixed inset-0 -z-10">
-        <!-- NOTA: Asegúrate de que tu imagen se llame "fondo-escuela.jpg" -->
         <img src="U.E San Jose Obrero.png" alt="Fondo de la Unidad Educativa" class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-black/60"></div>
     </div>
@@ -22,7 +21,7 @@
     <div id="login-view" class="isolate flex flex-grow items-center sm:items-end justify-center sm:justify-end p-4 sm:p-16">
         <div class="w-full max-w-md space-y-6 rounded-xl bg-black/30 p-8 shadow-2xl backdrop-blur-lg border border-white/20">
             <div>
-                <h2 class="text-center text-2xl font-bold tracking-tight text-white">Portal Web SJ de la U.E. San José Obrero</h2>
+                <h2 class="text-center text-2xl font-bold tracking-tight text-white">Portal Web SJ de la U.E. San José Obrero Nivel Secundario</h2>
                 <p class="mt-2 text-center text-sm text-gray-300">Introduce el Número RUDE del Estudiante para acceder a su información.</p>
             </div>
             <form id="login-form" class="space-y-6">
@@ -57,66 +56,55 @@
 
         <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-grow">
             <div class="bg-white rounded-lg shadow-lg mb-8">
+                <!-- CABECERA CON NOMBRE DEL ESTUDIANTE -->
                 <div class="px-6 py-5 border-b border-gray-200">
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-800">Información del Estudiante: <span id="student-name" class="font-bold"></span></h3>
+                    <h3 class="text-lg md:text-xl font-semibold text-gray-800">Nombres y Apellidos del Estudiante: <span id="student-name" class="font-bold"></span></h3>
                 </div>
+
+                <!-- BLOQUE DE INFORMACIÓN ESTÁTICA DEL ESTUDIANTE (AHORA SIEMPRE VISIBLE) -->
+                <div class="px-6 py-5 border-b border-gray-200">
+                     <h3 class="text-lg font-semibold text-gray-800 mb-4">Información del Estudiante</h3>
+                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-700">
+                         <div>
+                             <span class="font-medium text-gray-600">RUDE:</span>
+                             <span id="student-rude-display" class="ml-2"></span>
+                         </div>
+                         <div>
+                             <span class="font-medium text-gray-600">Curso:</span>
+                             <span id="student-course" class="ml-2"></span>
+                         </div>
+                         <div>
+                             <span class="font-medium text-gray-600">Grado:</span>
+                             <span id="student-grade" class="ml-2"></span>
+                         </div>
+                         <div>
+                             <span class="font-medium text-gray-600">Turno:</span>
+                             <span id="student-shift" class="ml-2"></span>
+                         </div>
+                     </div>
+                </div>
+
+                <!-- NAVEGACIÓN DE PESTAÑAS (DEBAJO DE LA INFO DEL ESTUDIANTE) -->
                 <div class="border-b border-gray-200 overflow-x-auto">
-                    <nav class="-mb-px flex space-x-2 md:space-x-4 p-4" aria-label="Tabs">
-                        <button data-tab="seguimiento" class="tab-button active flex-shrink-0">Ficha de Seguimiento</button>
-                        <button data-tab="asistencia" class="tab-button flex-shrink-0">Asistencia</button>
-                        <button data-tab="notas" class="tab-button flex-shrink-0">Notas Trimestrales</button>
-                        <button data-tab="reuniones" class="tab-button flex-shrink-0">Reuniones</button>
-                        <button data-tab="horario" class="tab-button flex-shrink-0">Horario</button>
+                    <nav class="-mb-px flex space-x-2 md:space-x-4 p-4" aria-label="Tabs" role="tablist">
+                        <button data-tab="seguimiento" class="tab-button active flex-shrink-0" role="tab" aria-controls="content-seguimiento">Ficha de Seguimiento</button>
+                        <button data-tab="asistencia" class="tab-button flex-shrink-0" role="tab" aria-controls="content-asistencia">Asistencia</button>
+                        <button data-tab="notas" class="tab-button flex-shrink-0" role="tab" aria-controls="content-notas">Notas Trimestrales</button>
+                        <button data-tab="reuniones" class="tab-button flex-shrink-0" role="tab" aria-controls="content-reuniones">Reuniones</button>
+                        <button data-tab="horario" class="tab-button flex-shrink-0" role="tab" aria-controls="content-horario">Horario</button>
                     </nav>
                 </div>
+                
+                <!-- CONTENIDO DE LAS PESTAÑAS -->
                 <div id="tab-content" class="p-6">
-                    <!-- Contenido Pestaña Seguimiento -->
-                    <div id="content-seguimiento" class="tab-pane">
-    <!-- Encabezado -->
-    <h2 class="text-xl font-bold text-gray-900 mb-6 border-b pb-2">
-        Información del Estudiante: <span id="student-name" class="font-normal"></span>
-    </h2>
+                    <!-- Contenido Pestaña Seguimiento (ahora solo observaciones) -->
+                    <div id="content-seguimiento" class="tab-pane" role="tabpanel">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-4">Observaciones y Seguimiento</h4>
+                        <div id="student-observations" class="space-y-3"></div>
+                    </div>
 
-    <!-- Navegación de Pestañas -->
-    <nav class="flex space-x-4 mb-6 border-b border-gray-200">
-        <button data-tab="seguimiento" class="tab-button active text-sm font-medium text-gray-700 hover:text-gray-900">Ficha de Seguimiento</button>
-        <button data-tab="asistencia" class="tab-button text-sm font-medium text-gray-500 hover:text-gray-700">Asistencia</button>
-        <button data-tab="notas" class="tab-button text-sm font-medium text-gray-500 hover:text-gray-700">Notas Trimestrales</button>
-        <button data-tab="reuniones" class="tab-button text-sm font-medium text-gray-500 hover:text-gray-700">Reuniones</button>
-        <button data-tab="horario" class="tab-button text-sm font-medium text-gray-500 hover:text-gray-700">Horario</button>
-    </nav>
-
-    <!-- Información del Estudiante -->
-    <div class="mb-6">
-        <h3 class="text-lg font-semibold text-gray-800 mb-3">Información del Estudiante</h3>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-700">
-            <div>
-                <span class="font-medium text-gray-600">RUDE:</span>
-                <span id="student-rude-display" class="ml-2"></span>
-            </div>
-            <div>
-                <span class="font-medium text-gray-600">Curso:</span>
-                <span id="student-course" class="ml-2"></span>
-            </div>
-            <div>
-                <span class="font-medium text-gray-600">Grado:</span>
-                <span id="student-grade" class="ml-2"></span>
-            </div>
-            <div>
-                <span class="font-medium text-gray-600">Turno:</span>
-                <span id="student-shift" class="ml-2"></span>
-            </div>
-        </div>
-    </div>
-
-    <!-- Observaciones y Seguimiento -->
-    <div>
-        <h3 class="text-lg font-semibold text-gray-800 mb-3">Observaciones y Seguimiento</h3>
-        <div id="student-observations" class="space-y-3"></div>
-    </div>
-</div>
                     <!-- Contenido Pestaña Asistencia -->
-                    <div id="content-asistencia" class="tab-pane hidden">
+                    <div id="content-asistencia" class="tab-pane hidden" role="tabpanel">
                         <h4 class="text-lg font-semibold text-gray-800 mb-4">Registro de Asistencia</h4>
                         <div class="overflow-x-auto">
                         <table class="min-w-full divide-y divide-gray-200">
@@ -133,7 +121,7 @@
                         </div>
                     </div>
                     <!-- Contenido Pestaña Notas -->
-                    <div id="content-notas" class="tab-pane hidden">
+                    <div id="content-notas" class="tab-pane hidden" role="tabpanel">
                         <h4 class="text-lg font-semibold text-gray-800 mb-4">Notas Trimestrales</h4>
                         <div class="overflow-x-auto">
                         <table class="min-w-full divide-y divide-gray-200">
@@ -152,17 +140,15 @@
                         </div>
                     </div>
                     <!-- Contenido Pestaña Reuniones -->
-                    <div id="content-reuniones" class="tab-pane hidden">
+                    <div id="content-reuniones" class="tab-pane hidden" role="tabpanel">
                         <h4 class="text-lg font-semibold text-gray-800 mb-4">Reuniones Programadas</h4>
                         <div id="reuniones-container" class="space-y-4"></div>
                     </div>
                     <!-- Contenido Pestaña Horario -->
-                    <div id="content-horario" class="tab-pane hidden">
+                    <div id="content-horario" class="tab-pane hidden" role="tabpanel">
                         <h4 class="text-lg font-semibold text-gray-800 mb-4">Mi Horario de Clases</h4>
                         <div id="horario-container" class="mt-4">
-                            <!-- La imagen del horario se insertará aquí -->
                             <img id="horario-img" alt="Horario de Clases" class="hidden rounded-lg shadow-md max-w-full mx-auto">
-                            <!-- Mensaje para cuando no hay horario -->
                             <p id="horario-message" class="text-gray-500 hidden">No hay un horario disponible para mostrar.</p>
                         </div>
                     </div>
@@ -176,7 +162,6 @@
         </footer>
     </div>
 
-    <!-- Enlace a tu archivo JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>

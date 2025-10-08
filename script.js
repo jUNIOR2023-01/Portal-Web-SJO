@@ -3789,7 +3789,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
             ],
@@ -3819,7 +3819,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
                 { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
@@ -3855,7 +3855,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
             ],
@@ -3885,7 +3885,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
                 { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
@@ -3921,7 +3921,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
             ],
@@ -3951,7 +3951,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
                 { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
@@ -3987,7 +3987,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
             ],
@@ -4017,7 +4017,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
                 { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
@@ -4053,7 +4053,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
             ],
@@ -4083,7 +4083,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-03-15", descripcion: "Participación destacada en la feria de ciencias." },
                 { fecha: "2025-04-22", descripcion: "Necesita mejorar la puntualidad en la entrega de tareas de Matemáticas." }
@@ -4119,7 +4119,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
             ],
@@ -4149,7 +4149,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "2do de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
             ],
@@ -4179,7 +4179,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
             ],
@@ -4209,7 +4209,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
             ],
@@ -4239,7 +4239,7 @@ document.addEventListener('DOMContentLoaded', () => {
             curso: "6to de Secundaria",
             grado: "A",
             turno: "Mañana",
-            "horarioImg": "img/Horario de 6 SEXTO.png",
+            "horarioImg": "img/Horario de SEXTO.png",
             observaciones: [
                 { fecha: "2025-04-10", descripcion: "Líder del equipo en el proyecto de historia." }
             ],
